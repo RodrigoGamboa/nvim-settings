@@ -41,4 +41,7 @@ return require("packer").startup(function(use)
   }
   -- Display Git Differences 
   use 'airblade/vim-gitgutter'
+  -- Autocompletion for JSX tags
+  use 'maxmellon/vim-jsx-pretty'
+  use 'pangloss/vim-javascript'
 end)
