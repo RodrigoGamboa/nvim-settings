@@ -1,3 +1,9 @@
+-- Load Telescope and Plenary
+require('telescope').setup {
+  defaults = {
+    file_ignore_patterns = { "node_modules" }
+  }
+}
 -- vim.cmd [[packadd packer.nvim]]
 vim.cmd.packadd("packer.nvim")
 
