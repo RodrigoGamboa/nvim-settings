@@ -50,6 +50,8 @@ return require("packer").startup(function(use)
   -- Autocompletion for JSX tags
   use 'maxmellon/vim-jsx-pretty'
   use 'pangloss/vim-javascript'
+  use 'HerringtonDarkholme/yats.vim'
+  use 'leafgarland/typescript-vim' 
   use("tpope/vim-obsession")
   use("dhruvasagar/vim-prosession")
 end)

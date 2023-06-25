@@ -19,6 +19,7 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set("n", "<leader>vrr", vim.lsp.buf.references, opts)
 	vim.keymap.set("n", "<leader>vrn", vim.lsp.buf.rename, opts)
 	vim.keymap.set("n", "<leader>sh", vim.lsp.buf.signature_help, opts)
+  vim.keymap.set("n", "<leader>ga", vim.lsp.buf.code_action, opts)
 end
 )
 
